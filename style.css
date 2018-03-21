@@ -1,0 +1,77 @@
+
+body {
+ font-family: Comic Sans MS; 
+}
+
+header {
+  font-size: 40px;
+  text-align: center; 
+  color: black;
+  background: linear-gradient(#005525 25%, #fecb00, transparent);
+}
+
+a {
+ text-decoration: none; 
+}
+
+.nav {
+  font-size: 45px;
+  display: inline;
+  text-decoration-line: none;
+  padding: 35px; 
+}
+
+/*
+.main-nav {
+  font-size:30px;
+ padding: 30px 15px 30px 15px;
+}
+*/
+
+
+.profile-image {
+  border-color:green;
+  border-style: dotted;
+  background-color:black;
+  padding:auto;
+  width: 100%;
+}
+
+/*
+.tagname { 
+  color: green;
+  background-color:black;
+  font-size:57px;
+}
+*/
+
+
+
+.card-title {
+  color:green;
+  background-color: black;
+  font-size:37px;
+  
+}
+
+/*-----Pseudo Classes-----*/
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: #fecb00;
+}
+
+/* selected link */
+a:active {
+  color: #fecb00;
+}
+  
+  

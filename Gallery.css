@@ -1,0 +1,78 @@
+header {
+font-size:40px;
+  
+background:linear gradient(#005525,#fecb00,trasparent);
+  
+color:black;
+  
+ background-size:contain;
+  
+  background-repeat:space;
+}
+.main-nav {
+  font-size:64px;
+  
+   padding:35x;
+  
+   padding-left:35px;
+  
+  padding-top:35px;
+  
+  padding-bottom:35px;
+  
+  font-family: Comic Sans MS;
+}
+#slideshow {
+  position: relative; 
+  overflow: hidden;
+  height: 300px;
+  width: 650px;
+  margin: 0 auto;
+  bottom: 500px;
+  left: 750px;  
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide:nth-child(1) {
+  background-image: url('IMG_1226.JPG');
+  background-size: 650px 300px; 
+  background-repeat: no-repeat; 
+}
+
+.slide:nth-child(2) {
+  background-image: url('IMG_2073.JPG');
+  background-size: 650px 300px;
+  background-repeat: no-repeat;
+}
+
+.slide:nth-child(3) {
+  background-image: url('IMG_2151.JPG');
+  background-size: 650px 300px;
+  background-repeat: no-repeat;
+}
+
+.slide-number {
+  color: #000;
+  text-align: center;
+  font-size: 10em;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}

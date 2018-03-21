@@ -1,0 +1,96 @@
+
+body {
+ font-family: Comic Sans MS; 
+ 
+}
+
+header {
+  font-size: 40px;
+  text-align: center; 
+  color: black;
+  background: linear-gradient(#005525 25%, #fecb00, transparent);
+}
+
+section {
+  float: left;
+  margin: auto;
+  padding: 200px 0 0 150px;
+}
+
+a {
+ text-decoration: none; 
+}
+
+img {
+  float: right;
+  width: 40%;
+  padding: 95px;
+  margin: auto;
+  border-radius: 25%;
+}
+
+/*-----Classes-----*/
+
+.nav {
+  font-size: 45px;
+  display: inline;
+  text-decoration-line: none;
+  padding: 35px; 
+}
+
+.title {
+ font-size: 40px;
+}
+
+.info {
+ font-size: 35px; 
+}
+
+/*-----Pseudo Classes-----*/
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #fecb00;
+}
+
+/* selected link */
+a:active {
+    color: #fecb00;
+}
+
+/*-----Media Queries-----*/
+
+@media (max-width: 1250px) {
+  section {
+    float: inherit;
+  }
+  
+
+  img {
+    float: inherit;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

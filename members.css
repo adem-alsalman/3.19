@@ -1,0 +1,138 @@
+
+body {
+  font-family: Comic Sans MS; 
+ 
+}
+
+header {
+  font-size: 40px;
+  background: linear-gradient(#005525 25%, #fecb00, transparent);
+  color: black;
+  background-size: contain;
+  background-repeat: space;
+}
+
+img {
+  display: block;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 25px;
+  border-color: #fecb00;
+}
+
+a {
+  text-decoration: none; 
+}
+
+h1 {
+  text-align: center; 
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px; 
+}
+
+h3 {
+  font-size: 25px; 
+}
+
+li {
+  font-size: 20px; 
+}
+
+/*-----Class Selectors-----*/
+
+.bruce {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.president {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.vice {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.teacher {
+  text-align: center; 
+  font-size: 30px;
+}
+
+.nav {
+  font-size: 45px;
+  display: inline;
+  text-decoration-line: none;
+  padding: 35px;
+}
+
+.main-nav {
+  text-align: center; 
+}
+
+.title {
+  text-align: left; 
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 25px;
+  border-color: #005525;
+}
+
+.main-title {
+ font-size: 35px; 
+}
+
+/*-----Pseudo Classes-----*/
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: #fecb00;
+}
+
+/* selected link */
+a:active {
+  color: #fecb00;
+}
+
+/*.vice {
+    width: 25%;
+    float: right;
+    text-align: right; 
+}*/
+
+
+/*-----Media Queries-----*/
+
+
+
+
+
+
+
+
+
+
+
+
